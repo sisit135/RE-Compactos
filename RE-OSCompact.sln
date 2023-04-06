@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "OSCompactShared", "src\OSCompactShared\OSCompactShared.shproj", "{1D520345-EBE7-4903-BABC-60C93034C797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libOSCompact", "src\libOSCompact\libOSCompact.csproj", "{38BDCAB5-ED1E-4328-A189-82A465CCDB82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "re-oscompact", "src\re-oscompact\re-oscompact.csproj", "{534D9F0C-DF30-4AD3-8B40-1CFF90512A15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38BDCAB5-ED1E-4328-A189-82A465CCDB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BDCAB5-ED1E-4328-A189-82A465CCDB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BDCAB5-ED1E-4328-A189-82A465CCDB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BDCAB5-ED1E-4328-A189-82A465CCDB82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534D9F0C-DF30-4AD3-8B40-1CFF90512A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534D9F0C-DF30-4AD3-8B40-1CFF90512A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534D9F0C-DF30-4AD3-8B40-1CFF90512A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534D9F0C-DF30-4AD3-8B40-1CFF90512A15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

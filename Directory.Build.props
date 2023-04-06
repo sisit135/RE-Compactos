@@ -1,0 +1,16 @@
+<Project>
+    <PropertyGroup>
+        <!-- Windows only TFM -->
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Version>0.0.1</Version>
+        <Company>ReEnhancer developers</Company>
+        <Copyright>GPLv3</Copyright>
+        <Description>All-tine-one Windows system optimizer.</Description>
+        <LangVersion>latest</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Nullable>enable</Nullable>
+        
+        <DefineConstants>$(DefineConstants);RE_COMPACT_ENABLE_ADDITIONAL_ALGORITHMS</DefineConstants>
+
+    </PropertyGroup>
+</Project>
